@@ -1,0 +1,6 @@
+skip_docs
+opt_out_usage
+
+import "release.rb"
+
+default_platform(:ios)

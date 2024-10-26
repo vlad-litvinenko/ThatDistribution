@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ThatDistribution/ThatDistribution.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:AdHocConfig"
+      name = "AdHocConfig">
+      <FileRef
+         location = "group:AdHocDefaults.plist">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/vlad/prj/ThatDistribution/AdHocConfig/AddSettings.sh">
+      </FileRef>
+      <FileRef
+         location = "group:Settings.bundle">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/vlad/prj/ThatDistribution/AdHocConfig/StagingURLs.plist">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/vlad/prj/ThatDistribution/AdHocConfig/ReplaceIcons.sh">
+      </FileRef>
+      <FileRef
+         location = "group:AppIcon60x60@2x.png">
+      </FileRef>
+      <FileRef
+         location = "group:AppIcon76x76@2x~ipad.png">
+      </FileRef>
+      <FileRef
+         location = "group:SetBundleIdentifiers.sh">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:fastlane"
+      name = "fastlane">
+      <FileRef
+         location = "group:/Users/vlad/prj/ThatDistribution/fastlane/release.rb">
+      </FileRef>
+      <FileRef
+         location = "group:Fastfile">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/vlad/prj/ThatDistribution/fastlane/FlavorAdHoc.sh">
+      </FileRef>
+   </Group>
+</Workspace>

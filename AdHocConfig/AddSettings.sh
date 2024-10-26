@@ -1,0 +1,14 @@
+#!/bin/sh
+
+SOURCE_PATH=$1
+TARGET_PATH=$2
+
+cp ${SOURCE_PATH}/*.plist $TARGET_PATH
+
+TARGET_SETTINGS_BUNDLE="${TARGET_PATH}/Settings.bundle"
+
+if [[ -d "$TARGET_SETTINGS_BUNDLE" ]]; then
+rm -R "$TARGET_SETTINGS_BUNDLE"
+fi
+
+cp -R "${SOURCE_PATH}/Settings.bundle" $TARGET_PATH
